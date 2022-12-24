@@ -66,7 +66,7 @@ def save_transcript(transcript_data, txt_file):
 st.title("🗣 Automatic Speech Recognition using Whisper ✨")
 st.info('✨ Supports all popular audio formats - WAV, MP3, MP4, OGG, WMA, AAC, FLAC, FLV ')
 uploaded_file = st.file_uploader("Upload audio file", type=["wav","mp3","ogg","wma","aac","flac","mp4","flv"])
-
+st.info(' 🎥 Youtube support coming soon..')
 audio_file = None
 
 if uploaded_file is not None:
